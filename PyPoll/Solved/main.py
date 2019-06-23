@@ -35,7 +35,7 @@ with open(csvpath, newline='') as csvfile:
         y= candidatelist.count(x)
         vote_count.append(y) 
 
-        a= (y/count) * 100
+        a= (y/count) *100
         vote_percent.append(a)
 
 
@@ -44,4 +44,17 @@ print("Election Results")
 print("-------------------") 
 print(f"Total Votes: {len(vote_count)}")
 for i in range(len(unique_candidate)):
-    print(unique_candidate[i])
+          print(unique_candidate[i]) 
+          print(str(vote_percent[i]) + "%")
+          
+
+text_file = open("main.txt","w",newline='')
+
+text_file.write(("Finacial Analysis"))
+text_file.write("--------------------")
+text_file.write(f"Total Votes: {len(vote_count)}")
+for i in range(len(unique_candidate)):      
+    text_file.write(unique_candidate[i])
+    text_file.write(str(vote_percent[i]))
+text_file.close()          
+

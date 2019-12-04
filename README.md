@@ -18,4 +18,4 @@ I’m using a financial dataset called budget_data.csv.  The dataset is composed
 ## Project Description
 
 This is a fun project to work on. 
-I’m was giving a sample size data set and my goal is to analyzing the company base on the numbers provide.  There was question ask and was answer by the results from analyzing the data using Python.  
+I’m was giving a sample size data set and my goal is to analyzing the company base on the numbers provide.  Using Python to run the script, I analzye the company financial 'Profit and Losses'.

@@ -1,14 +1,14 @@
-##Python Challenge PyBank 
+## Python Challenge PyBank 
 
 The purpose of this project is creating a Python script for analyzing the financial records for PyBank company. I’m using a financial dataset called budget_data.csv.  The dataset is composed of two columns ‘Date’ and ‘Profit/Losses’.
 
-#Methods Used
+# Methods Used
 •	Calculating the total number of months
 •	Calculating the total amount of ‘Profit/Losses’ over the entire period
 •	Analyzing the greatest increase in profits
 •	Analyzing the greatest decrease in losses
 
-#Technologies
+# Technologies
 •	Python
 •	Microsoft Excel
 #Project Description
